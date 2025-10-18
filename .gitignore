@@ -1,0 +1,230 @@
+# Digital Library Management System - .gitignore
+
+# ===========================================
+# PHP & Web Development
+# ===========================================
+
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# PHP
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# ===========================================
+# Database & Configuration
+# ===========================================
+
+# Database files (keep structure, ignore data)
+*.sql.backup
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data
+config/local.php
+config/production.php
+.env
+.env.local
+.env.production
+.env.staging
+
+# ===========================================
+# Logs & Debugging
+# ===========================================
+
+# Log files
+logs/
+*.log
+error.log
+access.log
+debug.log
+php_errors.log
+
+# Debug files
+debug.txt
+error.txt
+trace.txt
+
+# ===========================================
+# Cache & Temporary Files
+# ===========================================
+
+# Cache directories
+cache/
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Session files
+sessions/
+session/
+
+# ===========================================
+# Uploads & User Content
+# ===========================================
+
+# User uploads (keep structure, ignore content)
+uploads/
+upload/
+files/
+user_files/
+attachments/
+
+# Image uploads
+images/upload/
+images/user/
+photos/upload/
+
+# ===========================================
+# Development & IDE
+# ===========================================
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.sublime-project
+*.sublime-workspace
+.vscode/settings.json
+
+# ===========================================
+# System Files
+# ===========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ===========================================
+# Security & Sensitive Files
+# ===========================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Configuration backups
+config.php.bak
+database.php.bak
+*.conf.bak
+
+# ===========================================
+# Build & Dependencies
+# ===========================================
+
+# Node modules (if using npm)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Bower components
+bower_components/
+
+# ===========================================
+# Project Specific
+# ===========================================
+
+# Keep these files (remove from gitignore if needed):
+# !database/library_management.sql
+# !manifest.json
+# !sw.js
+# !offline.html
+
+# Remove these if they exist:
+# Old vendor directories (already cleaned)
+# librarian/vendors/
+# librarian/bootstrap/
+# librarian/upload/
+# librarian/media/
+
+# ===========================================
+# Email & Notifications
+# ===========================================
+
+# Email logs
+email_logs/
+mail_logs/
+*.eml
+
+# ===========================================
+# Documentation (Optional)
+# ===========================================
+
+# Uncomment if you don't want to include docs in git:
+# *.md
+# docs/
+# documentation/
+
+# ===========================================
+# Testing
+# ===========================================
+
+# Test files
+test/
+tests/
+*.test.php
+phpunit.xml
+.phpunit.result.cache
+
+# ===========================================
+# Deployment
+# ===========================================
+
+# Deployment files
+deploy/
+deployment/
+*.deploy
+deploy.sh
+deploy.bat
+
+# ===========================================
+# Keep Important Files
+# ===========================================
+
+# Force include important files
+!README.md
+!PROJECT_REPORT.md
+!SETUP_GUIDE.md
+!FINAL_CLEANUP_REPORT.md
+!CLEANUP_SUMMARY.md
+!START_SYSTEM.bat
+!manifest.json
+!sw.js
+!offline.html
+!database/library_management.sql
+!.htaccess
